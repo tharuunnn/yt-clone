@@ -1,0 +1,161 @@
+.header{
+  height: 50px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: white;
+  z-index: 200;
+  border-style: solid;
+  border-bottom-color: rgb(195, 195, 195);
+  border-width: 1px;
+}
+
+.left-section{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.middle-section{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section{
+  width: 200px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.ham-menu-edit{
+  height: 25px;
+  margin-left: 10px;
+}
+
+.yt-logo-edit{
+  height: 20px;
+  margin-right: 30px;
+}
+
+.search-bar-edit{
+  display: flex;
+  flex: 1;
+  height: 39px;
+  width: 0;
+  max-width: 320px;
+  border-width: 1px;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 0;
+  padding-left: 10px;
+  font-family: Roboto,Arial;
+  font-size: 15px;
+
+}
+
+.search-bar-edit:focus{
+  border-color: rgb(26, 26, 215);
+  outline: none;
+}
+
+.search-button,
+.voice-button,
+.upload-container,
+.apps-container,
+.notif-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 60px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1px;
+}
+
+
+.voice-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-color: rgb(253, 253, 253);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-left: 13px;
+  margin-right: 35px;
+}
+
+.search-button .toolkit,
+.voice-button .toolkit,
+.upload-container .toolkit,
+.apps-container .toolkit,
+.notif-container .toolkit{
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(125, 125, 125);
+  position: absolute;
+  bottom: -35px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  padding: 7px;
+}
+
+.search-button:hover .toolkit,
+.voice-button:hover .toolkit,
+.upload-container:hover .toolkit,
+.apps-container:hover .toolkit,
+.notif-container:hover .toolkit{
+  opacity: 1;
+}
+
+.notif-container .notif-count{
+  position: absolute;
+  background-color: rgb(202, 14, 14);
+  color: white;
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  top:-4px;
+  right: -3px;
+  padding-left: 4px;
+  padding-right: 3px;
+  border-radius: 18px;
+}
+
+.search-icon-edit{
+  height: 25px;
+}
+
+.voice-icon-edit{
+  height: 25px;
+}
+
+.upload-icon-edit,
+.apps-icon-edit,
+.notif-icon-edit{
+  height: 23px;
+}
+
+.mypfp-edit{
+  height: 28px;
+  margin-right: 20px;
+}
